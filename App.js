@@ -8,6 +8,7 @@
 
 import React from 'react';
 import { SafeAreaView, ScrollView } from 'react-native';
+import ThemeBox from './app/themes/ThemeBox';
 import InlineStyle from './app/InlineStyle';
 import StyleSheetSample from './app/StyleSheetSample';
 import Component from './app/separate-styles/Component';
@@ -19,6 +20,7 @@ const App = () => {
         <InlineStyle />
         <StyleSheetSample />
         <Component />
+        <ThemeBox />
       </ScrollView>
     </SafeAreaView>
   );
