@@ -24,7 +24,7 @@ const ContainerComponent = props => (
   <View style={[styles.box, props.style]}>{props.children}</View>
 );
 
-const CenteredText = props => (
+export const CenteredText = props => (
   <Text style={styles.centered}>{props.children}</Text>
 );
 

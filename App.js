@@ -7,7 +7,8 @@
  */
 
 import React from 'react';
-import BorderRadiusCombinations from './app/style-properties/BorderRadiusCombinations';
+import MarginCombinations from './app/style-properties/MarginCombinations';
+// import BorderRadiusCombinations from './app/style-properties/BorderRadiusCombinations';
 // import BorderCombinations from './app/style-properties/BorderCombinations';
 // import { SafeAreaView, ScrollView } from 'react-native';
 // import ThemeBox from './app/themes/ThemeBox';
@@ -28,7 +29,8 @@ const App = () => {
     // </SafeAreaView>
 
     // <BorderCombinations />
-    <BorderRadiusCombinations />
+    // <BorderRadiusCombinations />
+    <MarginCombinations />
     // <ProfileCard />
   );
 };
