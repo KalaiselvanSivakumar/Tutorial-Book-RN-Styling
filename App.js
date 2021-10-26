@@ -7,14 +7,14 @@
  */
 
 import React from 'react';
-import BorderRadiusCombinations from './app/border/BorderRadiusCombinations';
-// import ProfileCard from './app/card/ProfileCard';
-// import BorderCombinations from './app/border/BorderCombinations';
+import BorderRadiusCombinations from './app/style-properties/BorderRadiusCombinations';
+// import BorderCombinations from './app/style-properties/BorderCombinations';
 // import { SafeAreaView, ScrollView } from 'react-native';
 // import ThemeBox from './app/themes/ThemeBox';
 // import InlineStyle from './app/InlineStyle';
 // import StyleSheetSample from './app/StyleSheetSample';
 // import Component from './app/separate-styles/Component';
+// import ProfileCard from './app/card/ProfileCard';
 
 const App = () => {
   return (
