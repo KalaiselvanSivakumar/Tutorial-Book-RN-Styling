@@ -25,7 +25,7 @@ const ContainerComponent = props => (
 );
 
 export const CenteredText = props => (
-  <Text style={styles.centered}>{props.children}</Text>
+  <Text style={[styles.centered, props.style]}>{props.children}</Text>
 );
 
 const styles = StyleSheet.create({

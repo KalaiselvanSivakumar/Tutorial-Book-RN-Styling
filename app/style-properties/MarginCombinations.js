@@ -32,11 +32,11 @@ const MarginCombinations = () => (
   </View>
 );
 
-const ContainerComponent = props => (
+export const ContainerComponent = props => (
   <View style={[styles.box, props.style]}>{props.children}</View>
 );
 
-const styles = StyleSheet.create({
+export const styles = StyleSheet.create({
   container: {
     flex: 1,
     alignItems: 'center',
