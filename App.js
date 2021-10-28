@@ -7,8 +7,9 @@
  */
 
 import React from 'react';
+import PositionCombinations from './app/style-properties/PositionCombinations';
 // import MarginCombinations from './app/style-properties/MarginCombinations';
-import PaddingCombinations from './app/style-properties/PaddingCombinations';
+// import PaddingCombinations from './app/style-properties/PaddingCombinations';
 // import BorderRadiusCombinations from './app/style-properties/BorderRadiusCombinations';
 // import BorderCombinations from './app/style-properties/BorderCombinations';
 // import { SafeAreaView, ScrollView } from 'react-native';
@@ -32,7 +33,8 @@ const App = () => {
     // <BorderCombinations />
     // <BorderRadiusCombinations />
     // <MarginCombinations />
-    <PaddingCombinations />
+    // <PaddingCombinations />
+    <PositionCombinations />
     // <ProfileCard />
   );
 };
