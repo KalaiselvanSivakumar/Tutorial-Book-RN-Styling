@@ -7,6 +7,7 @@
  */
 
 import React from 'react';
+import LineHeight from './app/style-properties/LineHeight';
 // import FontFamily from './app/style-properties/FontFamily';
 // import PositionCombinations from './app/style-properties/PositionCombinations';
 // import MarginCombinations from './app/style-properties/MarginCombinations';
@@ -18,7 +19,7 @@ import React from 'react';
 // import InlineStyle from './app/InlineStyle';
 // import StyleSheetSample from './app/StyleSheetSample';
 // import Component from './app/separate-styles/Component';
-import ProfileCard from './app/card/ProfileCard';
+// import ProfileCard from './app/card/ProfileCard';
 
 const App = () => {
   return (
@@ -38,7 +39,8 @@ const App = () => {
     // <PositionCombinations />
 
     // <FontFamily />
-    <ProfileCard />
+    <LineHeight />
+    // <ProfileCard />
   );
 };
 
