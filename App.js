@@ -7,7 +7,7 @@
  */
 
 import React from 'react';
-import DecorationStyles from './app/style-properties/DecorationStyles';
+// import DecorationStyles from './app/style-properties/DecorationStyles';
 // import FontFamily from './app/style-properties/FontFamily';
 // import PositionCombinations from './app/style-properties/PositionCombinations';
 // import MarginCombinations from './app/style-properties/MarginCombinations';
@@ -19,7 +19,7 @@ import DecorationStyles from './app/style-properties/DecorationStyles';
 // import InlineStyle from './app/InlineStyle';
 // import StyleSheetSample from './app/StyleSheetSample';
 // import Component from './app/separate-styles/Component';
-// import ProfileCard from './app/card/ProfileCard';
+import ProfileCard from './app/card/ProfileCard';
 
 const App = () => {
   return (
@@ -40,8 +40,8 @@ const App = () => {
 
     // <FontFamily />
     // <LineHeight />
-    <DecorationStyles />
-    // <ProfileCard />
+    // <DecorationStyles />
+    <ProfileCard />
   );
 };
 
