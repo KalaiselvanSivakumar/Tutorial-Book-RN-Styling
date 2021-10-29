@@ -7,7 +7,8 @@
  */
 
 import React from 'react';
-import PositionCombinations from './app/style-properties/PositionCombinations';
+import FontFamily from './app/style-properties/FontFamily';
+// import PositionCombinations from './app/style-properties/PositionCombinations';
 // import MarginCombinations from './app/style-properties/MarginCombinations';
 // import PaddingCombinations from './app/style-properties/PaddingCombinations';
 // import BorderRadiusCombinations from './app/style-properties/BorderRadiusCombinations';
@@ -34,7 +35,9 @@ const App = () => {
     // <BorderRadiusCombinations />
     // <MarginCombinations />
     // <PaddingCombinations />
-    <PositionCombinations />
+    // <PositionCombinations />
+
+    <FontFamily />
     // <ProfileCard />
   );
 };
