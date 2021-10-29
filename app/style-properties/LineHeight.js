@@ -22,11 +22,11 @@ const TextContainer = props => (
   <View style={[styles.textContainer, props.style]}>{props.children}</View>
 );
 
-const LeftText = props => (
+export const LeftText = props => (
   <Text style={[styles.leftText, props.style]}>{props.children}</Text>
 );
 
-const styles = StyleSheet.create({
+export const styles = StyleSheet.create({
   container: {
     width: 300,
     height: 300,

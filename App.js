@@ -7,7 +7,7 @@
  */
 
 import React from 'react';
-import LineHeight from './app/style-properties/LineHeight';
+import DecorationStyles from './app/style-properties/DecorationStyles';
 // import FontFamily from './app/style-properties/FontFamily';
 // import PositionCombinations from './app/style-properties/PositionCombinations';
 // import MarginCombinations from './app/style-properties/MarginCombinations';
@@ -39,7 +39,8 @@ const App = () => {
     // <PositionCombinations />
 
     // <FontFamily />
-    <LineHeight />
+    // <LineHeight />
+    <DecorationStyles />
     // <ProfileCard />
   );
 };
