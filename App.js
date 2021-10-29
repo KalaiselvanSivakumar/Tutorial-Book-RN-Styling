@@ -7,7 +7,7 @@
  */
 
 import React from 'react';
-import FontFamily from './app/style-properties/FontFamily';
+// import FontFamily from './app/style-properties/FontFamily';
 // import PositionCombinations from './app/style-properties/PositionCombinations';
 // import MarginCombinations from './app/style-properties/MarginCombinations';
 // import PaddingCombinations from './app/style-properties/PaddingCombinations';
@@ -18,7 +18,7 @@ import FontFamily from './app/style-properties/FontFamily';
 // import InlineStyle from './app/InlineStyle';
 // import StyleSheetSample from './app/StyleSheetSample';
 // import Component from './app/separate-styles/Component';
-// import ProfileCard from './app/card/ProfileCard';
+import ProfileCard from './app/card/ProfileCard';
 
 const App = () => {
   return (
@@ -37,8 +37,8 @@ const App = () => {
     // <PaddingCombinations />
     // <PositionCombinations />
 
-    <FontFamily />
-    // <ProfileCard />
+    // <FontFamily />
+    <ProfileCard />
   );
 };
 
